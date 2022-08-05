@@ -14,4 +14,10 @@ public class CreateAssetBundles
         }
         BuildPipeline.BuildAssetBundles(assetBundleDirectory, BuildAssetBundleOptions.None, EditorUserBuildSettings.activeBuildTarget);
    }
+
+    [MenuItem("Assets/Build AssetBundles")]
+    static void CreateFinalPrefab()
+    {
+
+    }
 }
